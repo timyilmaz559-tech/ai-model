@@ -6,7 +6,7 @@ import sys
 
 # 1. Veriyi yükle
 X, y = [], []
-siniflar = ['Muaz', 'other']
+siniflar = ['CLASS_NAME1', 'CLASS_NAME2']#you can add more class
 
 # Klasör kontrolü ekle
 for sinif_id, sinif_adi in enumerate(siniflar):
