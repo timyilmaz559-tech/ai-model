@@ -8,7 +8,7 @@ detector = YOLO('yolo26n.pt')
 
 # CNN ile yüz tanıma
 classifier = tf.keras.models.load_model('face.h5')
-siniflar = ['Muaz', 'diger']
+siniflar = ['CLASS_NAM1', 'CLASS_NAME2']
 
 # YOLO'da insan sınıfı ID'si 0'dır
 INSAN_SINIF_ID = 0
